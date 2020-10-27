@@ -1,0 +1,13 @@
+{
+  "name": "cimg-dotnet",
+  "version": "1.0.0",
+  "description": "dockerfile for dotnetcore circleci",
+  "main": "index.js",
+  "repository": "git@github.com:lucax88x/dotnetcore-yarn-docker-compose.git",
+  "author": "lucatrazzi <lucax88x@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "docker build -t lucax88x/cimg-dotnet .",
+    "push": "docker push lucax88x/cimg-dotnet"
+  }
+}
